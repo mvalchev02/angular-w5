@@ -1,0 +1,6 @@
+<h1>Cat Images</h1>
+<div class="codes-container">
+  <div class="code" *ngFor="let code of httpCodes">
+    <a [href]="'/cat/' + code">{{ code }}</a>
+  </div>
+</div>
